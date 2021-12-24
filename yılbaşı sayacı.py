@@ -8,4 +8,4 @@ while 1:
     saniye = (kalan_zaman.seconds%3600) %60
 
     print("Yeni yıla kalan zaman: " + str(kalan_zaman.days) + " gün,"+ str(saat) + " saat,"+ str(dakika) + " dakika," + str(saniye) + " saniye.", end = "\r")
-    time.sleep(0.5)
+    time.sleep(1)
